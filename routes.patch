@@ -1,0 +1,4 @@
+7c7
+<   # root 'welcome#index'
+---
+>    root 'inorouts#index'
