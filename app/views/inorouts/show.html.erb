@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @inorout.name %>
+</p>
+
+<p>
+  <strong>Serials:</strong>
+  <%= @inorout.serials %>
+</p>
+
+<p>
+  <strong>Rma:</strong>
+  <%= @inorout.RMA %>
+</p>
+
+<p>
+  <strong>Testing:</strong>
+  <%= @inorout.testing %>
+</p>
+
+<p>
+  <strong>Checkin:</strong>
+  <%= @inorout.checkin %>
+</p>
+
+<p>
+  <strong>Checkout:</strong>
+  <%= @inorout.checkout %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @inorout.date %>
+</p>
+
+<%= link_to 'Edit', edit_inorout_path(@inorout) %> |
+<%= link_to 'Back', inorouts_path %>

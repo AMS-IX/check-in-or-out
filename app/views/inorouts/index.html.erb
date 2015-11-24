@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Brocade hardware check in or out</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Serials</th>
+      <th>Rma</th>
+      <th>Testing</th>
+      <th>Checkin</th>
+      <th>Checkout</th>
+      <th>Date</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @inorouts.each do |inorout| %>
+      <tr>
+        <td><%= inorout.name %></td>
+        <td><%= inorout.serials %></td>
+        <td><%= inorout.RMA %></td>
+        <td><%= inorout.testing %></td>
+        <td><%= inorout.checkin %></td>
+        <td><%= inorout.checkout %></td>
+        <td><%= inorout.date %></td>
+        <td><%= link_to 'Show', inorout %></td>
+     <%#    <td><%= link_to 'Edit', edit_inorout_path(inorout) %></td>
+     <%#   <td><%= link_to 'Destroy', inorout, method: :delete, data: { confirm: 'Are you sure?' } %></td> 
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New check in or out', new_inorout_path %>

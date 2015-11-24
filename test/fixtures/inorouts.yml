@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  serials: MyText
+  RMA: false
+  testing: false
+  checkin: false
+  checkout: false
+  date: 2015-11-13
+
+two:
+  name: MyString
+  serials: MyText
+  RMA: false
+  testing: false
+  checkin: false
+  checkout: false
+  date: 2015-11-13

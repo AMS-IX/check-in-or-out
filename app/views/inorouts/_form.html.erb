@@ -1,0 +1,45 @@
+<%= form_for(@inorout) do |f| %>
+  <% if @inorout.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@inorout.errors.count, "error") %> prohibited this inorout from being saved:</h2>
+
+      <ul>
+      <% @inorout.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :serials %><br>
+    <%= f.text_area :serials %>
+  </div>
+  <div class="field">
+    <%= f.label :RMA %><br>
+    <%= f.check_box :RMA %>
+  </div>
+  <div class="field">
+    <%= f.label :testing %><br>
+    <%= f.check_box :testing %>
+  </div>
+  <div class="field">
+    <%= f.label :checkin %><br>
+    <%= f.check_box :checkin %>
+  </div>
+  <div class="field">
+    <%= f.label :checkout %><br>
+    <%= f.check_box :checkout %>
+  </div>
+  <div class="field">
+    <%= f.label :date %><br>
+    <%= f.date_select :date %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

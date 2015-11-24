@@ -1,0 +1,24 @@
+***************
+*** 3
+- <h1>Brocade hardware check in or out</h1>
+--- 3 -----
++ <h1>Listing Inorouts</h1>
+***************
+*** 24,25
+-         <td><%= inorout.rma %></td>
+-         <td><%= inorout.Testing %></td>
+--- 24,25 -----
++         <td><%= inorout.RMA %></td>
++         <td><%= inorout.testing %></td>
+***************
+*** 30,31
+-      <%#    <td><%= link_to 'Edit', edit_inorout_path(inorout) %></td>
+-      <%#   <td><%= link_to 'Destroy', inorout, method: :delete, data: { confirm: 'Are you sure?' } %></td> 
+--- 30,31 -----
++         <td><%= link_to 'Edit', edit_inorout_path(inorout) %></td>
++         <td><%= link_to 'Destroy', inorout, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+***************
+*** 39
+- <%= link_to 'New check in or out', new_inorout_path %>
+--- 39 -----
++ <%= link_to 'New Inorout', new_inorout_path %>

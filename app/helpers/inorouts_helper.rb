@@ -1,0 +1,2 @@
+module InoroutsHelper
+end
