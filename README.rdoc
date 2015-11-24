@@ -1,5 +1,5 @@
 == README
 
-see README.docx
+see "installatie notes checkinoroutapp".docx
 
 See also /Volumes/Office/Magazijn/checkinoroutapp/
