@@ -2,4 +2,4 @@
 
 see "installatie notes checkinoroutapp".docx
 
-See also /Volumes/Office/Magazijn/checkinoroutapp/
+See also /Office/Magazijn/checkinoroutapp/
