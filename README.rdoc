@@ -3,3 +3,5 @@
 see "installatie notes checkinoroutapp".docx
 
 See also /Office/Magazijn/checkinoroutapp/
+
+Thanks to Maartje who has created the Checkin/out concept.
